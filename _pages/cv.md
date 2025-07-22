@@ -9,37 +9,48 @@ redirect_from:
 
 {% include base_path %}
 
+[Download complete CV (PDF)](/files/CV.pdf)
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* **MSc in Applied Computational Science and Engineering**, Imperial College London, 2024-Present (Current: Distinction)
+* **BSc in Mathematics and Applied Mathematics**, Taiyuan University of Technology, 2020-2024 (GPA: 92/100)
 
-Work experience
+Research Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **Jun 2025 - Present: MSc Independent Research Project**
+  * Imperial College London
+  * Topic: Comparative Benchmarking of Reduced-Order Models for Data Assimilation Applications
+  * Supervisor: TBD
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* **Dec 2023 - Dec 2024: Research Project Leader**
+  * Deep Learning-Based Simulation of Dispersion Shock Waves in Nonlinear PDE Systems
+  * First Author, Published in Physical Review E
+  * Supervisor: Prof. Rui Guo
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
+* **Aug 2023: Conference Presenter**
+  * The 32nd International Joint Conference on Artificial Intelligence (IJCAI)
+  * Oral presentation at MiGA workshop
+  * First Author on MSTCN-VAE model
+
+* **Jul 2022 - Apr 2023: Research Assistant**
+  * Solving Nonlinear Partial Differential Equations Based on PINN Method
+  * First Author, Published in Optik
+  * Developed PINN implementations in TensorFlow and PyTorch
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Programming & Tools**
+  * Python (TensorFlow, PyTorch)
+  * MATLAB, C++, Git, LaTeX
+* **Scientific Computing**
+  * Physics-informed neural networks
+  * Koopman operator methods
+  * Data assimilation & Operator learning
+* **Research & Leadership**
+  * Mathematical modeling
+  * Large-scale data analysis
+  * Team management & Academic writing
 
 Publications
 ======
@@ -52,13 +63,3 @@ Talks
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
