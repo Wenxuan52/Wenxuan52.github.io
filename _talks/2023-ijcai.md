@@ -10,4 +10,4 @@ location: "Macau, China"
 
 This presentation introduced our work on unsupervised learning method for micro gesture recognition using skeleton modality data. The MSTCN-VAE model demonstrates effective performance in recognizing subtle hand gestures without requiring labeled training data.
 
-[More information here](conference-website-url-if-available)
+[Presentation Slides](/files/IJCAI2023.pdf)

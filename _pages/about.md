@@ -8,38 +8,18 @@ redirect_from:
   - /about.html
 ---
 
-I am a Master's student in Applied Computational Science and Engineering at Imperial College London, with a strong foundation in mathematics and a passion for developing scientific machine learning approaches to solve complex dynamical systems problems.
+I am a Master's student in **Applied Computational Science and Engineering** at **Imperial College London**. My research background focuses on **physics-informed modeling**, where I have worked on integrating physical constraints with neural network architectures to solve complex partial differential equations, particularly addressing challenges in nonlinear wave phenomena and dispersive systems.
 
-## Research Interests
+Currently, I am leading my MSc Independent Research Project on **"Comparative Benchmarking of Reduced-Order Models for Data Assimilation Applications"**, systematically evaluating CAE-based models across computational fluid dynamics, Kolmogorov flow systems, and multi-physics atmospheric datasets.
 
-My research focuses on the intersection of **machine learning and physics-informed modeling**, with particular emphasis on:
+## Research Vision
 
-- **Operator Learning Approaches**: Developing novel neural network architectures that can learn operators governing physical systems
-- **Physics-Informed Neural Networks (PINNs)**: Creating innovative PINN-based methods for solving nonlinear partial differential equations
-- **Reduced-Order Modeling**: Advancing CAE-based reduced-order models for data assimilation applications
-- **Computational Fluid Dynamics**: Applying machine learning techniques to fluid dynamics problems and turbulent flow systems
-- **Environmental Modeling**: Leveraging deep learning for multi-physics atmospheric datasets and complex environmental phenomena
+I want to pursue research that bridges the gap between **theoretical understanding** and **real-world impact**. I believe that by combining physical insights with modern machine learning, we can develop more robust and trustworthy models for scientific discovery and societal benefit.
 
-I am particularly interested in **data assimilation** techniques and their applications to real-world physical systems, where I aim to bridge the gap between theoretical mathematical models and practical computational implementations.
+## Seeking PhD Opportunities
 
-## Academic Background
+I am actively seeking PhD opportunities in scientific machine learning, where I can contribute to developing principled and practical approaches for modeling complex physical systems.
 
-**Imperial College London** (Sep 2024 - Present)  
-*MSc Applied Computational Science and Engineering*  
-Department of Earth Sciences and Engineering  
-Expected Degree: Distinction
+---
 
-During my Master's studies, I have achieved outstanding academic performance with A* grades in core subjects including Computational Mathematics, Machine Learning, and Fluid Dynamics. My coursework has provided me with systematic expertise in project version control, physical dynamics systems, inversion and optimization, parallel computing, data analysis, and advanced machine learning techniques.
-
-**Taiyuan University of Technology** (Sep 2020 - Jun 2024)  
-*Bachelor of Science in Mathematics and Applied Mathematics*  
-School of Mathematics  
-GPA: 92/100
-
-My undergraduate studies established a solid foundation in mathematical theory and applications. I excelled in core mathematical subjects including mathematical analysis (97/100), advanced algebra (98/100), and numerical analysis (94/100). Throughout my undergraduate career, I was consistently recognized as an Academic Outstanding Individual, demonstrating my commitment to academic excellence.
-
-## Current Focus
-
-I am currently conducting my MSc Independent Research Project on "Comparative Benchmarking of Reduced-Order Models for Data Assimilation Applications," where I lead a comprehensive study evaluating CAE-based reduced-order models across diverse physical systems, including computational fluid dynamics and atmospheric datasets.
-
-Looking ahead, I am **seeking PhD opportunities** that will allow me to further advance the field of physics-informed machine learning, with a particular focus on developing innovative operator learning approaches for complex dynamical systems and environmental modeling applications.
+For detailed information, please see my [CV](/cv/) and [Publications](/publications/).
