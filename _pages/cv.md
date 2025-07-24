@@ -25,34 +25,42 @@ Education
 Research Experience
 ======
 
-**MSc Independent Research Project** | Jun 2025 - Present  
-*Imperial College London*  
-- **Project**: Comparative Benchmarking of Reduced-Order Models for Data Assimilation Applications
-- Leading comprehensive benchmarking study of CAE-based reduced-order models (CAE+DMD, CAE+LinearMLP, CAE+WeakLinearMLP)
-- Evaluating model performance across computational fluid dynamics datasets, turbulent flow systems, and multi-physics atmospheric datasets
-- Developing standardized evaluation frameworks for reconstruction accuracy and assimilation quality
-- **Supervisor**: Prof. Sibo Cheng
+* Comparative Benchmarking of Reduced-Order Models for Data Assimilation Applications
+  **MSc Independent Research Project** | Jun 2025 - Present
+  
+  - Leading a comprehensive benchmarking study of CAE-based reduced-order models (CAE+DMD, CAE+LinearMLP, CAE+WeakLinearMLP) for data assimilation applications across diverse physical systems.
+  
+  - Evaluating model performance and data assimilation effectiveness on computational fluid dynamics datasets (cylinder flow), turbulent flow systems (Kolmogorov flow), and real-world multi-physics atmospheric datasets.
+  
+  - Developing standardized evaluation frameworks to assess both reconstruction accuracy and assimilation quality of operator learning approaches in reduced-order modeling contexts.
 
-**Research Project Leader** | Dec 2023 - Dec 2024  
-*Deep Learning-Based Simulation of Dispersion Shock Waves in Nonlinear PDE Systems*  
-- **Output**: Physical Review E (2024)
-- Led full-cycle research development: data preprocessing, model design, numerical experiments, and manuscript preparation
-- Developed novel DPINN and DRKT modules based on PINN framework and Runge-Kutta methods
-- Integrated modules into PgMSNN model using multi-stage training strategy for dispersion shock wave phenomena
-- **Supervisor**: Prof. Rui Guo
+* Deep Learning-Based Simulation of Dispersion Shock Waves in Nonlinear PDE Systems
+  **Research Project Leader** | Dec 2023 - Dec 2024  
+  **Outputs**: Physical Review E
+  
+  - Led the full-cycle development of a research project, encompassing data preprocessing, model design, numerical experiments, and thesis writing.
+  
+  - Developed the DPINN and DRKT modules based on the PINN framework and traditional Runge-Kutta methods, innovatively addressing dispersion shock wave phenomena in the Generalized Gardner equation.
+  
+  - Integrated the modules into the PgMSNN model using the multi-stage training strategy.
 
-**Conference Research Leader** | Aug 2023  
-*The 32nd International Joint Conference on Artificial Intelligence (IJCAI)*  
-- **Output**: IJCAI Conference Paper, Oral Presentation at MiGA Workshop
-- Presented MSTCN-VAE model: unsupervised approach for micro-gesture classification using skeletal data
-- Led research team through model development, optimization, and conference presentation
+* The 32nd International Joint Conference on Artificial Intelligence (IJCAI)
+  **Research Team Leader** | Aug 2023  
+  **Outputs**: IJCAI conference
+  
+  - Attend the IJCAI conference and oral presentation at MiGA workshop.
+  
+  - Presented the technical report of the MSTCN-VAE model, an unsupervised model based on skeletal data to effectively solve the micro-gesture classification problem.
 
-**Research Assistant** | Jul 2022 - Apr 2023  
-*Physics-Informed Neural Networks for Nonlinear PDEs*  
-- **Output**: Optik (2023)
-- Implemented PINN method for simulating wave solutions (solitons, breathers) of Modified Schrödinger equation
-- Developed PINN implementations in both TensorFlow and PyTorch frameworks
-- Built physics-informed neural network architecture for complex number output processing
+* Solving Nonlinear Partial Differential Equations Based on PINN Method
+  **Research Project Leader** | Jul 2022 - Apr 2023  
+  **Outputs**: Optik
+  
+  - Using the PINN method to simulate the wave solutions (solitons, breathers) of Modified Schrodinger equation.
+  
+  - Reproduce the PINN method in the Tensorflow and Pytorch.
+  
+  - Build a Physical-Informed Neural Network to process the complex number output.
 
 Competitions & Awards
 ======
