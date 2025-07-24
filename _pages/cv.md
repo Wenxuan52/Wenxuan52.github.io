@@ -27,7 +27,7 @@ Research Experience
 
 * Comparative Benchmarking of Reduced-Order Models for Data Assimilation Applications
 
-  **MSc Independent Research Project** \| Jun 2025 - Present
+  **MSc Independent Research Project** (Jun 2025 - Present)
   
   - Leading a comprehensive benchmarking study of CAE-based reduced-order models (CAE+DMD, CAE+LinearMLP, CAE+WeakLinearMLP) for data assimilation applications across diverse physical systems.
   
@@ -37,7 +37,7 @@ Research Experience
 
 * Deep Learning-Based Simulation of Dispersion Shock Waves in Nonlinear PDE Systems
 
-  **Research Project Leader** \| Dec 2023 - Dec 2024  
+  **Research Project Leader** (Dec 2023 - Dec 2024)  
 
   **Outputs**: Physical Review E
   
@@ -49,7 +49,7 @@ Research Experience
 
 * The 32nd International Joint Conference on Artificial Intelligence (IJCAI)
 
-  **Research Team Leader** | Aug 2023  
+  **Research Team Leader** (Aug 2023)  
 
   **Outputs**: IJCAI conference
   
@@ -59,7 +59,7 @@ Research Experience
 
 * Solving Nonlinear Partial Differential Equations Based on PINN Method
 
-  **Research Project Leader** | Jul 2022 - Apr 2023  
+  **Research Project Leader** (Jul 2022 - Apr 2023)  
 
   **Outputs**: Optik
   
