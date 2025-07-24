@@ -15,7 +15,7 @@ Education
 ======
 * **MSc Applied Computational Science and Engineering**, Imperial College London (2024-Present)  
   Department of Earth Sciences and Engineering | Current Distinction  
-  Key Courses: Computational Mathematics (A*), Machine Learning (A*), Fluid Dynamics (A*), Deep Learning (A)
+  Key Courses: Computational Mathematics (A\*), Machine Learning (A\*), Fluid Dynamics (A\*), Deep Learning (A)
 
 * **BSc Mathematics and Applied Mathematics**, Taiyuan University of Technology (2020-2024)  
   School of Mathematics | GPA: 92/100  
