@@ -13,7 +13,7 @@ title                    : "Wenxuan Yuan"
 title_separator          : "-"
 name                     : &name "Wenxuan Yuan"
 description              : &description "Welcome to my personal website"
-url                      : "http://localhost:4001" # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+url                      : "https://wenxuan52.github.io" # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Wenxuan52/wenxuan52.github.io"
 
