@@ -26,6 +26,7 @@ Research Experience
 ======
 
 * Comparative Benchmarking of Reduced-Order Models for Data Assimilation Applications
+
   **MSc Independent Research Project** | Jun 2025 - Present
   
   - Leading a comprehensive benchmarking study of CAE-based reduced-order models (CAE+DMD, CAE+LinearMLP, CAE+WeakLinearMLP) for data assimilation applications across diverse physical systems.
@@ -35,7 +36,9 @@ Research Experience
   - Developing standardized evaluation frameworks to assess both reconstruction accuracy and assimilation quality of operator learning approaches in reduced-order modeling contexts.
 
 * Deep Learning-Based Simulation of Dispersion Shock Waves in Nonlinear PDE Systems
+
   **Research Project Leader** | Dec 2023 - Dec 2024  
+
   **Outputs**: Physical Review E
   
   - Led the full-cycle development of a research project, encompassing data preprocessing, model design, numerical experiments, and thesis writing.
@@ -45,7 +48,9 @@ Research Experience
   - Integrated the modules into the PgMSNN model using the multi-stage training strategy.
 
 * The 32nd International Joint Conference on Artificial Intelligence (IJCAI)
+
   **Research Team Leader** | Aug 2023  
+
   **Outputs**: IJCAI conference
   
   - Attend the IJCAI conference and oral presentation at MiGA workshop.
@@ -53,7 +58,9 @@ Research Experience
   - Presented the technical report of the MSTCN-VAE model, an unsupervised model based on skeletal data to effectively solve the micro-gesture classification problem.
 
 * Solving Nonlinear Partial Differential Equations Based on PINN Method
+
   **Research Project Leader** | Jul 2022 - Apr 2023  
+
   **Outputs**: Optik
   
   - Using the PINN method to simulate the wave solutions (solitons, breathers) of Modified Schrodinger equation.
