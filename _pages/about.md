@@ -8,17 +8,18 @@ redirect_from:
   - /about.html
 ---
 
-I am a Master's student in **Applied Computational Science and Engineering** at **Imperial College London**. My research background focuses on **physics-informed modeling**, where I have worked on integrating physical constraints with neural network architectures to solve complex partial differential equations, particularly addressing challenges in nonlinear wave phenomena and dispersive systems.
+I am currently completing my MSc in **Applied Computational Science and Engineering** at **Imperial College London**, graduating with Distinction. My academic background spans **operator learning, Koopman theory, and physics-inspired machine learning**, with applications to partial differential equations, nonlinear wave phenomena, and reduced-order modeling for fluid and atmospheric systems.
 
-Currently, I am leading my MSc Independent Research Project on **"Comparative Benchmarking of Reduced-Order Models for Data Assimilation Applications"**, systematically evaluating CAE-based models across computational fluid dynamics, Kolmogorov flow systems, and multi-physics atmospheric datasets.
+I have published as **first author** in *Physical Review E* and *IJCAI 2023*, and recently co-authored *Information Shapes Koopman Representation* (under review at *ICLR 2026*). These experiences have gradually guided me toward **interpretable and trustworthy machine learning**, where I aspire to balance theoretical rigor with practical scalability.
 
 ## Research Vision
 
-I want to pursue research that bridges the gap between **theoretical understanding** and **real-world impact**. I believe that by combining physical insights with modern machine learning, we can develop more robust and trustworthy models for scientific discovery and societal benefit.
+My goal is to advance **trustworthy and interpretable machine learning**. I aim to develop models that not only achieve predictive accuracy but also reveal underlying structures, provide interpretability, and support reasoning and intervention in complex systems.
 
 ## Seeking PhD Opportunities
 
-I am actively seeking PhD opportunities in scientific machine learning, where I can contribute to developing principled and practical approaches for modeling complex physical systems.
+I am actively seeking PhD opportunities in **scientific / trustworthy ML**, with the aim of developing interpretable and reliable algorithms for modeling complex systems. I aspire to push the boundaries of ML by contributing methods that are both **mathematically grounded** and impactful for **addressing key challenges**.
+
 
 ---
 

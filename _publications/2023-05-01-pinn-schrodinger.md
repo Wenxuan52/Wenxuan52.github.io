@@ -1,7 +1,7 @@
 ---
 title: "Physics-informed Neural Network method for the Modified Nonlinear Schrödinger equation"
 collection: publications
-category: manuscripts
+category: journal
 permalink: /publication/2023-05-01-pinn-schrodinger
 date: 2023-05-01
 venue: 'Optik'

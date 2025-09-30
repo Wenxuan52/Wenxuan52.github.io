@@ -25,7 +25,7 @@ author:
   avatar           : "profile.jpg"
   name             : "Wenxuan Yuan"
   pronouns         : # example: "she/her"  
-  bio              : "Postgraduate at Imperial College London\nPhD Candidate in Scientific Machine Learning"
+  bio              : "Postgraduate at Imperial College London\nPhD Candidate"
   location         : "London"
   employer         : "Imperial College London"
   uri              : # URL
@@ -81,10 +81,14 @@ author:
 publication_category:
   books:
     title: 'Books'
-  manuscripts:
+  journal:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
+  preprint:
+    title: 'Preprint'
+  ongoing:
+    title: 'Ongoing Work'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"

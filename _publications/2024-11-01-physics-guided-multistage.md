@@ -1,7 +1,7 @@
 ---
 title: "Physics-guided multistage neural network: A physically guided network for step initial values and dispersive shock wave phenomena"
 collection: publications
-category: manuscripts
+category: journal
 permalink: /publication/2024-11-01-physics-guided-multistage
 date: 2024-11-01
 venue: 'Physical Review E'
