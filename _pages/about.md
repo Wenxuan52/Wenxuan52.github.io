@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I recently graduated with **Distinction** from the MSc in **Applied Computational Science and Engineering** at **Imperial College London**. Before this, I earned a BSc in Applied Mathematics from the Taiyuan University of Technology, graduating with a GPA of 4.5/5.0 (2/40). During my BSc and MSc, I focused primarily on **physics-inspired and scientific machine learning**, with particular interests in operator learning, Koopman theory, and representation learning for dynamical systems.
+I recently graduated with **Distinction** from the MSc in **ACSE** (Applied Computational Science and Engineering) at **Imperial College London**. Before this, I earned a BSc in Applied Mathematics from the **TYUT** (Taiyuan University of Technology), graduating with a GPA of 4.5/5.0 (2/40). During my BSc and MSc, I focused primarily on **physics-inspired and scientific machine learning**, with particular interests in operator learning, Koopman theory, and representation learning for dynamical systems.
 
 Currently, I have been increasingly interested in how **latent dynamics**, **representation learning**, **reinforcement learning**, and **world models** can come together to enable machines to **predict, reason about, and act** in complex environments.
 
@@ -22,7 +22,7 @@ Currently, I have been increasingly interested in how **latent dynamics**, **rep
 
 - I am currently leading a benchmark study on **Koopman-inspired models** for **data assimilation** tasks.
 
-- I am also working on addressing the **scaling bottleneck** of **RL world models** with **diffusion policy**.
+- I am also actively working on addressing the **scaling bottleneck** of **RL world models** with **diffusion policy**.
 
 ---
 
