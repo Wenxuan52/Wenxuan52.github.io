@@ -25,9 +25,9 @@ author:
   avatar           : "profile.jpg"
   name             : "Wenxuan Yuan | 元文瑄"
   pronouns         : # example: "she/her"  
-  bio              : # URL
+  bio              : "Imperial College London"
   location         : "China"
-  employer         : "Imperial College London"
+  employer         : # URL
   uri              : # URL
   email            : "wenxuan.yuan24@imperial.ac.uk" 
 
