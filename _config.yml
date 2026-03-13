@@ -23,9 +23,9 @@ repository               : "Wenxuan52/wenxuan52.github.io"
 author:
   # Biographic information
   avatar           : "profile.jpg"
-  name             : "Wenxuan Yuan"
+  name             : "Wenxuan Yuan | 元文瑄"
   pronouns         : # example: "she/her"  
-  bio              : "Postgraduate at Imperial College London\nPhD Applicant"
+  bio              : # URL
   location         : "China"
   employer         : "Imperial College London"
   uri              : # URL
@@ -34,12 +34,12 @@ author:
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : # URL
+  googlescholar    : "https://scholar.google.com/citations?hl=zh-CN&pli=1&user=06I0USUAAAAJ"
   impactstory      : # URL
-  orcid            : "https://orcid.org/0009-0002-2946-6763"
+  orcid            : # URL
   semantic         : # URL
   pubmed           : # URL
-  researchgate     : "https://www.researchgate.net/profile/Wen-Xuan-Yuan?ev=prf_overview"
+  researchgate     : # URL
   scopus           : # URL
 
   # Repositories and software development
@@ -229,9 +229,9 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
+#  talks:
+#    output: true
+#    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site

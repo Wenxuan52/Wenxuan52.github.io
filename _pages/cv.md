@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[Download complete CV (PDF)](/files/CV.pdf)
+[Download complete CV (PDF)](/files/En_CV.pdf)
 
 Education
 ======

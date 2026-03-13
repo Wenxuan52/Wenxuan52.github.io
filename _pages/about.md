@@ -8,19 +8,22 @@ redirect_from:
   - /about.html
 ---
 
-I am currently completing my MSc in **Applied Computational Science and Engineering** at **Imperial College London**, graduating with Distinction. My academic background spans **operator learning, Koopman theory, and physics-inspired machine learning**, with applications to partial differential equations, nonlinear wave phenomena, and reduced-order modeling for fluid and atmospheric systems.
+I recently graduated with **Distinction** from the MSc in **Applied Computational Science and Engineering** at **Imperial College London**. Before this, I earned a BSc in Applied Mathematics from the Taiyuan University of Technology, graduating with a GPA of 4.5/5.0 (2/40). During my BSc and MSc, I focused primarily on **physics-inspired and scientific machine learning**, with particular interests in operator learning, Koopman theory, and representation learning for dynamical systems.
 
-I have published as **first author** in *Physical Review E* and *IJCAI 2023*, and recently co-authored *Information Shapes Koopman Representation* (under review at *ICLR 2026*). These experiences have gradually guided me toward **interpretable and trustworthy machine learning**, where I aspire to balance theoretical rigor with practical scalability.
+Currently, I have been increasingly interested in how **latent dynamics**, **representation learning**, **reinforcement learning**, and **world models** can come together to enable machines to **predict, reason about, and act** in complex environments.
 
-## Research Vision
+### Recent Updates
 
-My goal is to advance **trustworthy and interpretable machine learning**. I aim to develop models that not only achieve predictive accuracy but also reveal underlying structures, provide interpretability, and support reasoning and intervention in complex systems.
+- **[ICLR 2026 Oral]** *Information Shapes Koopman Representation* has been accepted as an **Oral** at *ICLR 2026*. In this work, we study Koopman representation learning from an information-theoretic perspective, formalizing the trade-off between **simplicity** and **expressiveness** and translating it into an optimizable objective.
 
-## Seeking PhD Opportunities
+- A recent manuscript on integrating **diffusion policy** into a **safe reinforcement learning** framework is currently under review at **ICML 2026**.
 
-I am actively seeking PhD opportunities in **scientific / trustworthy ML**, with the aim of developing interpretable and reliable algorithms for modeling complex systems. I aspire to push the boundaries of ML by contributing methods that are both **mathematically grounded** and impactful for **addressing key challenges**.
+- I am currently leading a benchmark study on **Koopman-inspired models** for **data assimilation** tasks.
 
+- I am also working on addressing the **scaling bottleneck** of **RL world models** with **diffusion policy**.
 
----
+### Open to Work
 
-For detailed information, please see my [CV](/cv/) and [Publications](/publications/).
+I am especially interested in research-oriented industry roles at the intersection of world models, self-supervised representation learning, and machine learning for complex dynamical systems, particularly in building models that can predict, reason about, and plan within high-dimensional environments. I am also open to aligned PhD opportunities.
+
+📮 Feel free to contact me at: **wenxuan.yuan@qq.com**
