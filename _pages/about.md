@@ -12,7 +12,7 @@ I recently graduated with **Distinction** from the MSc in **Applied Computationa
 
 Currently, I have been increasingly interested in how **latent dynamics**, **representation learning**, **reinforcement learning**, and **world models** can come together to enable machines to **predict, reason about, and act** in complex environments.
 
-### Recent Updates
+## Recent Updates
 
 - **[ICLR 2026 Oral]** *Information Shapes Koopman Representation* has been accepted as an **Oral** at *ICLR 2026*. In this work, we study Koopman representation learning from an information-theoretic perspective, formalizing the trade-off between **simplicity** and **expressiveness** and translating it into an optimizable objective.
 
@@ -22,8 +22,8 @@ Currently, I have been increasingly interested in how **latent dynamics**, **rep
 
 - I am also working on addressing the **scaling bottleneck** of **RL world models** with **diffusion policy**.
 
-### Open to Work
+## Open to Work
 
-I am especially interested in research-oriented industry roles at the intersection of world models, self-supervised representation learning, and machine learning for complex dynamical systems, particularly in building models that can predict, reason about, and plan within high-dimensional environments. I am also open to aligned PhD opportunities.
+I am especially interested in **research-oriented industry positions** at the intersection of **world models, self-supervised representation learning, and machine learning for complex dynamical systems**, particularly in building models that can predict, reason about, and plan within high-dimensional environments. I am also open to aligned **PhD opportunities**.
 
 📮 Feel free to contact me at: **wenxuan.yuan@qq.com**
