@@ -86,9 +86,9 @@ publication_category:
   preprint:
     title: 'Preprint'
   conference:
-    title: 'Conference Papers'
+    title: 'Conference'
   journal:
-    title: 'Journal Articles'
+    title: 'Journal'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
