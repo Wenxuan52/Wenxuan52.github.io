@@ -22,7 +22,7 @@ Diffusion models have recently emerged as powerful learned priors for Bayesian i
 
 ## Demonstration
 
-![Project Demonstration]({{ page.demo_media }})
+{% include publication-demo-media.html media=page.demo_media tag=page.demo_tag %}
 
 ## Citation
 
