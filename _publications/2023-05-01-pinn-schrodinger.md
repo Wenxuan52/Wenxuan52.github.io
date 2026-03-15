@@ -10,6 +10,7 @@ paperurl: 'https://www.sciencedirect.com/science/article/pii/S0030402623002358'
 header:
   teaser: publications/PINN.png
 demo_media: "/images/publications/PINN.png"
+demo_tag: ""
 ---
 
 ## Abstract:
@@ -23,7 +24,7 @@ In this paper, we apply the Physics-informed Neural Network (PINN) method to inv
 
 ## Demonstration
 
-![Project Demonstration]({{ page.demo_media }})
+{% include publication-demo-media.html media=page.demo_media tag=page.demo_tag %}
 
 ## Citation
 

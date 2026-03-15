@@ -11,6 +11,7 @@ github: True
 header:
   teaser: publications/PgMSNN.png
 demo_media: "/images/publications/PgMSNN.png"
+demo_tag: ""
 ---
 
 ## Abstract
@@ -24,7 +25,7 @@ The phenomenon of dispersive shock waves (DSWs) exerts a critical influence on n
 
 ## Demonstration
 
-![Project Demonstration]({{ page.demo_media }})
+{% include publication-demo-media.html media=page.demo_media tag=page.demo_tag %}
 
 ## Citation
 
