@@ -15,12 +15,12 @@ redirect_from:
 
 Education
 ======
-* **MSc Applied Computational Science and Engineering**, Imperial College London (2024-2025)  
-  Department of Earth Sciences and Engineering | Distinction  
-  Key Courses: Computational Mathematics (A\*), Machine Learning (A\*), Fluid Dynamics (A\*), Deep Learning (A)
+* **MSc**, Applied Computational Science and Engineering, Imperial College London (2024-2025)  
+  Department of Earth Sciences and Engineering | **Distinction**  
+  Key Courses: Computational Mathematics (A\*), Machine Learning (A\*), Fluid Dynamics (A\*), Deep Learning (A\*)
 
-* **BSc Mathematics and Applied Mathematics**, Taiyuan University of Technology (2020-2024)  
-  School of Mathematics | GPA: 92/100  
+* **BSc**, Applied Mathematics, Taiyuan University of Technology (2020-2024)  
+  Department of Mathematics | **GPA: 4.5/5.0 (2/40)**
   Key Courses: Mathematical Analysis (97), Advanced Algebra (98), Numerical Analysis (94)  
   Awards: Academic Outstanding Individual (2020-2024)
 
