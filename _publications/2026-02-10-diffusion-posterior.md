@@ -4,7 +4,7 @@ collection: publications
 category: preprint
 permalink: /publication/2026-02-10-diffusion-posterior
 date: 2026-02-10
-venue: 'International Conference on Machine Learning (ICML) 2026'
+venue: 'International Conference on Machine Learning (ICML)'
 authors: 'Yiming Yang, Xiaoyuan Cheng, Yi He, Kaiyu Li, Wenxuan Yuan, Zhuo Sun'
 paperurl: 'https://arxiv.org/abs/2602.02045'
 header:
