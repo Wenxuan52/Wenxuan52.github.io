@@ -29,15 +29,15 @@ In this paper, we apply the Physics-informed Neural Network (PINN) method to inv
 
 ```bibtex
 @article{YUAN2023170739,
-title = {Physics-informed Neural Network method for the Modified Nonlinear Schrödinger equation},
-journal = {Optik},
-volume = {279},
-pages = {170739},
-year = {2023},
-issn = {0030-4026},
-doi = {https://doi.org/10.1016/j.ijleo.2023.170739},
-url = {https://www.sciencedirect.com/science/article/pii/S0030402623002358},
-author = {Wen-Xuan Yuan and Rui Guo and Yi-Ning Gao},
-keywords = {The modified nonlinear Schrödinger equation, The PINN method, Neural network}
+  title = {Physics-informed Neural Network method for the Modified Nonlinear Schrödinger equation},
+  journal = {Optik},
+  volume = {279},
+  pages = {170739},
+  year = {2023},
+  issn = {0030-4026},
+  doi = {https://doi.org/10.1016/j.ijleo.2023.170739},
+  url = {https://www.sciencedirect.com/science/article/pii/S0030402623002358},
+  author = {Wen-Xuan Yuan and Rui Guo and Yi-Ning Gao},
+  keywords = {The modified nonlinear Schrödinger equation, The PINN method, Neural network}
 }
 ```

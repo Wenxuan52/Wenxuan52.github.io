@@ -28,12 +28,11 @@ The Koopman operator provides a powerful framework for modeling dynamical system
 ## Citation
 
 ```bibtex
-@inproceedings{
-cheng2026information,
-title={Information Shapes Koopman Representation},
-author={Xiaoyuan Cheng and Wenxuan Yuan and Yiming Yang and Yuanzhao Zhang and Sibo Cheng and Yi He and Zhuo Sun},
-booktitle={The Fourteenth International Conference on Learning Representations},
-year={2026},
-url={https://openreview.net/forum?id=Szh0ELyQxL}
+@inproceedings{cheng2026information,
+  title = {Information Shapes Koopman Representation},
+  author = {Xiaoyuan Cheng and Wenxuan Yuan and Yiming Yang and Yuanzhao Zhang and Sibo Cheng and Yi He and Zhuo Sun},
+  booktitle = {The Fourteenth International Conference on Learning Representations},
+  year = {2026},
+  url = {https://openreview.net/forum?id=Szh0ELyQxL}
 }
 ```
