@@ -19,7 +19,6 @@ Diffusion models have recently emerged as powerful learned priors for Bayesian i
 ## Resources
 
 - [Paper](https://arxiv.org/abs/2602.02045)
-- [Code](https://github.com/Wenxuan52/ALGD)
 
 ## Demonstration
 
@@ -28,13 +27,13 @@ Diffusion models have recently emerged as powerful learned priors for Bayesian i
 ## Citation
 
 ```bibtex
-@misc{cheng2026doeslagrangianguidesafe,
-  title = {How Does the Lagrangian Guide Safe Reinforcement Learning through Diffusion Models?}, 
-  author = {Xiaoyuan Cheng and Wenxuan Yuan and Boyang Li and Yuanchao Xu and Yiming Yang and Hao Liang and Bei Peng and Robert Loftin and Zhuo Sun and Yukun Hu},
+@misc{yang2026stabilityrobustnessdiffusionposterior,
+  title = {On Stability and Robustness of Diffusion Posterior Sampling for Bayesian Inverse Problems}, 
+  author = {Yiming Yang and Xiaoyuan Cheng and Yi He and Kaiyu Li and Wenxuan Yuan and Zhuo Sun},
   year = {2026},
-  eprint = {2602.02924},
+  eprint = {2602.02045},
   archivePrefix = {arXiv},
   primaryClass = {cs.LG},
-  url = {https://arxiv.org/abs/2602.02924}, 
+  url = {https://arxiv.org/abs/2602.02045}, 
 }
 ```
