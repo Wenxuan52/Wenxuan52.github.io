@@ -81,14 +81,14 @@ author:
 publication_category:
   books:
     title: 'Books'
+  ongoing:
+    title: 'Ongoing Work'
   preprint:
     title: 'Preprint'
   conference:
     title: 'Conference Papers'
   journal:
     title: 'Journal Articles'
-  ongoing:
-    title: 'Ongoing Work'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"

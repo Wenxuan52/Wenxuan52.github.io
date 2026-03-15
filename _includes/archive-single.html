@@ -46,6 +46,10 @@
 
           {% if post.category == 'conferences' %}
             <p style="margin:0.2rem 0 0; line-height:1.3; display:-webkit-box; -webkit-line-clamp:1; -webkit-box-orient:vertical; overflow:hidden;">Presented at <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
+          {% elsif post.category == 'preprint' %}
+            <p style="margin:0.2rem 0 0; line-height:1.3; display:-webkit-box; -webkit-line-clamp:1; -webkit-box-orient:vertical; overflow:hidden;">Submitted to <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
+          {% elsif post.category == 'ongoing' %}
+            <p style="margin:0.2rem 0 0; line-height:1.3; display:-webkit-box; -webkit-line-clamp:1; -webkit-box-orient:vertical; overflow:hidden;">Expected submission to <i>{{ post.venue }}</i></p>
           {% else %}
             <p style="margin:0.2rem 0 0; line-height:1.3; display:-webkit-box; -webkit-line-clamp:1; -webkit-box-orient:vertical; overflow:hidden;">Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
           {% endif %}
