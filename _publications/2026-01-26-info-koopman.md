@@ -5,7 +5,7 @@ category: conference
 permalink: /publication/2026-01-26-info-koopman
 date: 2026-01-26
 venue: 'International Conference on Learning Representations (ICLR) 2026'
-authors: 'Xiaoyuan Cheng, Wenxuan Yuan, Yiming Yang, Yuanzhao Zhang, Sibo Cheng, Yi He, Zhuo Sun'
+authors: 'Xiaoyuan Cheng*, Wenxuan Yuan*, Yiming Yang, Yuanzhao Zhang, Sibo Cheng, Yi He, Zhuo Sun'
 paperurl: 'https://openreview.net/forum?id=Szh0ELyQxL'
 header:
   teaser: publications/infokoopman.png

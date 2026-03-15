@@ -5,7 +5,7 @@ category: ongoing
 permalink: /publication/2026-03-15-KoopmanDA
 date: 2026-03-15
 venue: 'Journal of Machine Learning Research (JMLR)'
-authors: 'Wenxuan Yuan, Xiaoyuan Cheng, Sibo Cheng'
+authors: 'Wenxuan Yuan*, Xiaoyuan Cheng*, Sibo Cheng'
 header:
   teaser: publications/KoopmanDA.gif
 demo_media: "/images/publications/KoopmanDA.gif"
