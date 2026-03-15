@@ -15,25 +15,25 @@
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if post.collection == 'publications' %}
-      <div style="display:flex; gap:1.2rem; align-items:flex-start;">
+      <div style="display:flex; gap:1.2rem; align-items:stretch; min-height:140px; max-height:140px; overflow:hidden;">
         {% if teaser %}
-          <div style="flex:0 0 190px; max-width:190px;">
-            <a href="{{ base_path }}{{ post.url }}" rel="permalink" aria-label="{{ title | strip_html }}">
+          <div style="flex:0 0 190px; width:190px; height:140px; overflow:hidden; border-radius:8px;">
+            <a href="{{ base_path }}{{ post.url }}" rel="permalink" aria-label="{{ title | strip_html }}" style="display:block; width:100%; height:100%;">
               <img
                 src="{% if teaser contains '://' %}{{ teaser }}{% else %}{{ teaser | prepend: '/images/' | prepend: base_path }}{% endif %}"
                 alt="{{ title | strip_html }} demonstration"
-                style="width:100%; border-radius:8px; object-fit:cover;">
+                style="display:block; width:100%; height:100%; object-fit:cover;">
             </a>
           </div>
         {% endif %}
 
-        <div style="flex:1; min-width:0;">
-          <h2 class="archive__item-title" itemprop="headline" style="margin-top:0; margin-bottom:0.35rem;">
+        <div style="flex:1; min-width:0; height:140px; overflow:hidden; display:flex; flex-direction:column; justify-content:flex-start;">
+          <h2 class="archive__item-title" itemprop="headline" style="margin-top:0; margin-bottom:0.35rem; font-size:1.05em; line-height:1.25; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;">
             <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
           </h2>
 
           {% if post.authors %}
-          <p class="archive__item-authors" style="margin: 0.25em 0; font-size: 0.95em; color: #6c757d;">
+          <p class="archive__item-authors" style="margin: 0.25em 0; font-size: 0.95em; color: #6c757d; line-height:1.3; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;">
             {% assign authors_bold = post.authors | replace: "Wenxuan Yuan", "<strong>Wenxuan Yuan</strong>" %}
             {% assign authors_bold = authors_bold | replace: "Yuan, Wenxuan", "<strong>Yuan, Wenxuan</strong>" %}
             {% assign authors_bold = authors_bold | replace: "W. Yuan", "<strong>W. Yuan</strong>" %}
@@ -45,9 +45,9 @@
           {% endif %}
 
           {% if post.category == 'conferences' %}
-            <p style="margin:0.2rem 0 0;">Presented at <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
+            <p style="margin:0.2rem 0 0; line-height:1.3; display:-webkit-box; -webkit-line-clamp:1; -webkit-box-orient:vertical; overflow:hidden;">Presented at <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
           {% else %}
-            <p style="margin:0.2rem 0 0;">Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
+            <p style="margin:0.2rem 0 0; line-height:1.3; display:-webkit-box; -webkit-line-clamp:1; -webkit-box-orient:vertical; overflow:hidden;">Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
           {% endif %}
         </div>
       </div>
