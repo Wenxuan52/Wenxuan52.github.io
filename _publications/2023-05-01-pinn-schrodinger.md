@@ -7,6 +7,9 @@ date: 2023-05-01
 venue: 'Optik'
 authors: 'Wenxuan Yuan, Rui Guo, Yining Gao'
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S0030402623002358'
+header:
+  teaser: homepage.png
+demo_media: "/images/homepage.png"
 ---
 
 ## Abstract:
@@ -17,6 +20,10 @@ In this paper, we apply the Physics-informed Neural Network (PINN) method to inv
 
 - [Paper](https://www.sciencedirect.com/science/article/pii/S0030402623002358)
 - [Code](https://github.com/Wenxuan52/PINN-with-TF-and-Pytorch)
+
+## Demonstration
+
+![Project Demonstration]({{ page.demo_media }})
 
 ## Citation
 
