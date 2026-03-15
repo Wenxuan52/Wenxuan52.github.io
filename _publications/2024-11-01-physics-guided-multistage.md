@@ -9,8 +9,8 @@ authors: 'Wenxuan Yuan, Rui Guo'
 paperurl: True
 github: True
 header:
-  teaser: homepage.png
-demo_media: "/images/homepage.png"
+  teaser: publications/PgMSNN.png
+demo_media: "/images/publications/PgMSNN.png"
 demo_tag: ""
 ---
 
