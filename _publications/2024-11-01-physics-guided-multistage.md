@@ -8,6 +8,9 @@ venue: 'Physical Review E'
 authors: 'Wenxuan Yuan, Rui Guo'
 paperurl: True
 github: True
+header:
+  teaser: homepage.png
+demo_media: "/images/homepage.png"
 ---
 
 ## Abstract
@@ -18,6 +21,10 @@ The phenomenon of dispersive shock waves (DSWs) exerts a critical influence on n
 
 - [Paper](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.110.065307)
 - [Code](https://github.com/Wenxuan52/PgMSNN)
+
+## Demonstration
+
+![Project Demonstration]({{ page.demo_media }})
 
 ## Citation
 
