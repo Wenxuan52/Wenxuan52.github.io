@@ -11,7 +11,7 @@ github: True
 header:
   teaser: publications/PgMSNN.png
 demo_media: "/images/publications/PgMSNN.png"
-demo_tag: ""
+demo_tag: "Undergraduate Thesis"
 ---
 
 ## Abstract

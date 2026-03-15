@@ -10,6 +10,7 @@ paperurl: 'https://openreview.net/forum?id=Szh0ELyQxL'
 header:
   teaser: publications/infokoopman.png
 demo_media: "/images/publications/infokoopman.png"
+demo_tag: "Oral"
 ---
 
 ## Abstract:
