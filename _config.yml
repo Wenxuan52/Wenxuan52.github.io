@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Wenxuan Yuan"
+title                    : "About Me"
 title_separator          : "-"
 name                     : &name "Wenxuan Yuan"
 description              : &description "Welcome to my personal website"
@@ -270,7 +270,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
       comments: true
   # _portfolio
   - scope:
