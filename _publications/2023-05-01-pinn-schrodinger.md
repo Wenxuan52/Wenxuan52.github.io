@@ -8,8 +8,8 @@ venue: 'Optik'
 authors: 'Wenxuan Yuan, Rui Guo, Yining Gao'
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S0030402623002358'
 header:
-  teaser: homepage.png
-demo_media: "/images/homepage.png"
+  teaser: publications/PINN.png
+demo_media: "/images/publications/PINN.png"
 ---
 
 ## Abstract:
