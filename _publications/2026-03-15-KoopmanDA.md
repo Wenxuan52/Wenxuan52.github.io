@@ -1,0 +1,39 @@
+---
+title: "How Does the Lagrangian Guide Safe Reinforcement Learning through Diffusion Models?"
+collection: publications
+category: ongoing
+permalink: /publication/2026-03-15-KoopmanDA
+date: 2026-03-15
+venue: 'Journal of Machine Learning Research (JMLR)'
+authors: 'Wenxuan Yuan, Xiaoyuan Cheng, Sibo Cheng'
+header:
+  teaser: publications/KoopmanDA.gif
+demo_media: "/images/publications/KoopmanDA.gif"
+demo_tag: "Postgraduate Thesis"
+---
+
+## Abstract:
+
+Diffusion policy sampling enables reinforcement learning (RL) to represent multimodal action distributions beyond suboptimal unimodal Gaussian policies. However, existing diffusion-based RL methods primarily focus on offline settings for reward maximization, with limited consideration of safety in online settings. To address this gap, we propose Augmented Lagrangian-Guided Diffusion (ALGD), a novel algorithm for off-policy safe RL. By revisiting optimization theory and energy-based model, we show that the instability of primal-dual methods arises from the non-convex Lagrangian landscape. In diffusion-based safe RL, the Lagrangian can be interpreted as an energy function guiding the denoising dynamics. Counterintuitively, direct usage destabilizes both policy generation and training. ALGD resolves this issue by introducing an augmented Lagrangian that locally convexifies the energy landscape, yielding a stabilized policy generation and training process without altering the distribution of the optimal policy. Theoretical analysis and extensive experiments demonstrate that ALGD is both theoretically grounded and empirically effective, achieving strong and stable performance across diverse environments.
+
+## Resources
+
+- [Code](https://github.com/Wenxuan52/KoopmanDABench)
+
+## Demonstration
+
+![Project Demonstration]({{ page.demo_media }})
+
+## Citation
+
+```bibtex
+@misc{cheng2026doeslagrangianguidesafe,
+  title = {How Does the Lagrangian Guide Safe Reinforcement Learning through Diffusion Models?}, 
+  author = {Xiaoyuan Cheng and Wenxuan Yuan and Boyang Li and Yuanchao Xu and Yiming Yang and Hao Liang and Bei Peng and Robert Loftin and Zhuo Sun and Yukun Hu},
+  year = {2026},
+  eprint = {2602.02924},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.LG},
+  url = {https://arxiv.org/abs/2602.02924}, 
+}
+```

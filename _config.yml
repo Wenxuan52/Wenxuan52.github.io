@@ -81,12 +81,12 @@ author:
 publication_category:
   books:
     title: 'Books'
-  journal:
-    title: 'Journal Articles'    
-  conference:
-    title: 'Conference Papers'
   preprint:
     title: 'Preprint'
+  conference:
+    title: 'Conference Papers'
+  journal:
+    title: 'Journal Articles'
   ongoing:
     title: 'Ongoing Work'
 
