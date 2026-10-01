@@ -13,18 +13,32 @@ My research connects **generative modeling, reinforcement learning, and dynamica
 
 ---
 
-## Research Interests
-
-- **Generative policies and reinforcement learning:** diffusion and flow policies, offline RL, and safe policy optimization.
-- **World models and latent dynamics:** learning representations for prediction and planning, with an interest in causal structure and scalable model-based RL.
-- **Reliable generative modeling:** robust inference and the geometry of learning and optimization.
-
 ## Recent Updates
 
-- **Sep 2026:** [*On Stability and Robustness of Diffusion Posterior Sampling for Bayesian Inverse Problems*](/publication/2026-02-10-diffusion-posterior) and [*Fisher Decorator: Refining Flow Policy via A Local Transport Map*](/publication/2026-09-25-fisher-decorator) have been accepted as **Posters** at the **Conference on Neural Information Processing Systems (NeurIPS) 2026**.
-- **Aug 2026 — NTU:** I started my PhD at **Nanyang Technological University** in Singapore.
-- **2026:** [*How Does the Lagrangian Guide Safe Reinforcement Learning through Diffusion Models?*](/publication/2026-02-10-ALGD) has been accepted as a **Poster** at the **International Conference on Machine Learning (ICML) 2026**.
-- **Jan 2026:** [*Information Shapes Koopman Representation*](/publication/2026-01-26-info-koopman) has been accepted for an **Oral presentation** at the **International Conference on Learning Representations (ICLR) 2026**.
+<ul class="recent-updates">
+  <li class="recent-updates__event">
+    <p class="recent-updates__heading"><span aria-hidden="true">🎉</span><strong>Sep 2026 — Conference on Neural Information Processing Systems (NeurIPS) 2026</strong></p>
+    <ul class="recent-updates__papers">
+      <li><span aria-hidden="true">📄</span><span><a href="/publication/2026-02-10-diffusion-posterior"><em>On Stability and Robustness of Diffusion Posterior Sampling for Bayesian Inverse Problems</em></a> <span class="publication-badge">Poster</span></span></li>
+      <li><span aria-hidden="true">📄</span><span><a href="/publication/2026-09-25-fisher-decorator"><em>Fisher Decorator: Refining Flow Policy via A Local Transport Map</em></a> <span class="publication-badge">Poster</span></span></li>
+    </ul>
+  </li>
+  <li class="recent-updates__event">
+    <p class="recent-updates__heading"><span aria-hidden="true">🎓</span><span><strong>Aug 2026 — NTU:</strong> I started my PhD at <strong>Nanyang Technological University</strong> in Singapore.</span></p>
+  </li>
+  <li class="recent-updates__event">
+    <p class="recent-updates__heading"><span aria-hidden="true">🎉</span><strong>2026 — International Conference on Machine Learning (ICML) 2026</strong></p>
+    <ul class="recent-updates__papers">
+      <li><span aria-hidden="true">📄</span><span><a href="/publication/2026-02-10-ALGD"><em>How Does the Lagrangian Guide Safe Reinforcement Learning through Diffusion Models?</em></a> <span class="publication-badge">Poster</span></span></li>
+    </ul>
+  </li>
+  <li class="recent-updates__event">
+    <p class="recent-updates__heading"><span aria-hidden="true">🎤</span><strong>Jan 2026 — International Conference on Learning Representations (ICLR) 2026</strong></p>
+    <ul class="recent-updates__papers">
+      <li><span aria-hidden="true">📄</span><span><a href="/publication/2026-01-26-info-koopman"><em>Information Shapes Koopman Representation</em></a> <span class="publication-badge publication-badge--oral">Oral</span></span></li>
+    </ul>
+  </li>
+</ul>
 
 See [all publications](/publications/) for papers and code.
 
