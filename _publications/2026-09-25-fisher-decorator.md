@@ -7,7 +7,7 @@ date: 2026-09-25
 venue: 'Conference on Neural Information Processing Systems (NeurIPS)'
 venue_short: 'NeurIPS'
 presentation: 'Poster'
-authors: 'Xiaoyuan Cheng, Haoyu Wang, Wenxuan Yuan, Ziyan Wang, Zonghao Chen, Li Zeng, Zhuo Sun'
+authors: 'Xiaoyuan Cheng*, Haoyu Wang*, Wenxuan Yuan, Ziyan Wang, Zonghao Chen, Li Zeng, Zhuo Sun'
 paperurl: 'https://arxiv.org/abs/2604.17919'
 codeurl: 'https://github.com/ARC0127/Fisher-Decorator'
 header:
@@ -15,6 +15,8 @@ header:
 demo_media: "/images/publications/fisher-decorator.png"
 demo_tag: "Poster"
 ---
+
+\* Equal contribution.
 
 ## Abstract
 
