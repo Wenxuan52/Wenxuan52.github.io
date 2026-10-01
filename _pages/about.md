@@ -7,26 +7,33 @@ redirect_from:
   - /about.html
 ---
 
-🎓 I will begin a fully funded PhD at **Nanyang Technological University (NTU)** in **August 2026**, supervised by [**Prof. Yingzhen Li**](http://yingzhenli.net/home/en/). I graduated with **Distinction** from the MSc in **ACSE** (Applied Computational Science and Engineering) at **Imperial College London**. Before this, I earned a BSc in Applied Mathematics from the **TYUT** (Taiyuan University of Technology), graduating with a GPA of 4.5/5.0 (ranked 2/40). During my BSc and MSc, I focused primarily on **physics-inspired and scientific machine learning**, with particular interests in operator learning, Koopman theory, and representation learning for dynamical systems.
+I am a **PhD student at Nanyang Technological University (NTU), Singapore**, supervised by [**Prof. Yingzhen Li**](http://yingzhenli.net/home/en/). I joined NTU in **August 2026** with full funding. Previously, I graduated with **Distinction** from the MSc in **Applied Computational Science and Engineering** at **Imperial College London**, and earned a BSc in Applied Mathematics from **Taiyuan University of Technology** (GPA: 4.5/5.0; ranked 2/40).
 
-🔍 Currently, I have been increasingly interested in how **latent dynamics**, **casual inference**, **reinforcement learning**, and **world models** can come together to enable machines to **predict, reason about, and act** in complex environments.
-
----
-
-# Recent Updates
-
-- 🎉 **[ICLR 2026 Oral]** *Information Shapes Koopman Representation* has been accepted as an **Oral** at *ICLR 2026*. In this work, we study Koopman representation learning from an information-theoretic perspective, formalizing the trade-off between **simplicity** and **expressiveness** and translating it into an optimizable objective.
-
-- 📝 A recent manuscript on integrating **diffusion policy** into a **safe reinforcement learning** framework is currently under review at **ICML 2026**.
-
-- 📊 I am currently leading a benchmark study on **Koopman-inspired models** for **data assimilation** tasks.
-
-- 🚀 I am also actively working on addressing the **scaling bottleneck** of **RL world models** with **diffusion policy**.
+My research connects **generative modeling, reinforcement learning, and dynamical systems**. My earlier work focused on scientific machine learning, operator learning, and Koopman representations; I am now interested in learning models and policies that can **predict, reason, and act** in complex environments.
 
 ---
 
-# Seeking Internship Opportunities
+## Research Interests
 
-💼 Before starting my PhD at **NTU** in **August 2026**, I am actively looking for **industry internship opportunities** in areas related to **world models, self-supervised representation learning, and machine learning for complex dynamical systems**. I am particularly interested in research-oriented roles focused on building models that can predict, reason about, and plan within high-dimensional environments.
+- **Generative policies and reinforcement learning:** diffusion and flow policies, offline RL, and safe policy optimization.
+- **World models and latent dynamics:** learning representations for prediction and planning, with an interest in causal structure and scalable model-based RL.
+- **Reliable generative modeling:** robust inference and the geometry of learning and optimization.
+
+## Recent Updates
+
+- **Sep 2026 — NeurIPS Posters:** [*On Stability and Robustness of Diffusion Posterior Sampling for Bayesian Inverse Problems*](/publication/2026-02-10-diffusion-posterior) and [*Fisher Decorator: Refining Flow Policy via A Local Transport Map*](/publication/2026-09-25-fisher-decorator) have been accepted to **NeurIPS 2026**.
+- **Aug 2026 — NTU:** I started my PhD at **Nanyang Technological University** in Singapore.
+- **2026 — ICML Poster:** [*How Does the Lagrangian Guide Safe Reinforcement Learning through Diffusion Models?*](/publication/2026-02-10-ALGD) has been accepted to **ICML 2026**.
+- **Jan 2026 — ICLR Oral:** [*Information Shapes Koopman Representation*](/publication/2026-01-26-info-koopman) has been accepted as an **Oral** at **ICLR 2026**.
+
+See [all publications](/publications/) for papers and code.
+
+---
+
+{% comment %}
+## Seeking Internship Opportunities
+
+This section is temporarily hidden and can be updated when internship availability changes.
 
 📮 Feel free to contact me at: **wenxuan.yuan@qq.com**
+{% endcomment %}

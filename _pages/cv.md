@@ -15,6 +15,9 @@ redirect_from:
 
 Education
 ======
+* **PhD**, **Nanyang Technological University**, Singapore (Aug 2026–present)\
+  Supervisor: [Prof. Yingzhen Li](http://yingzhenli.net/home/en/) | Fully funded
+
 * **MSc**, Applied Computational Science and Engineering, **Imperial College London** (2024-2025)  
   Department of Earth Sciences and Engineering | **Distinction**  
   Key Courses: Computational Mathematics (A\*), Machine Learning (A\*), Fluid Dynamics (A\*), Deep Learning (A\*)

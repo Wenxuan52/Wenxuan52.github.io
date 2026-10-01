@@ -12,33 +12,26 @@
   {% assign title = post.title %}
 {% endif %}
 
-<div class="{{ include.type | default: "list" }}__item"{% if post.collection == 'publications' %} style="margin-bottom: 1rem;"{% endif %}>
+<div class="{{ include.type | default: "list" }}__item{% if post.collection == 'publications' %} publication-list-item{% endif %}">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if post.collection == 'publications' %}
-      <div style="display:flex; gap:1.2rem; align-items:stretch; min-height:140px; max-height:140px; overflow:hidden;">
+      <div class="publication-card">
         {% if teaser %}
-          <div style="position:relative; flex:0 0 190px; width:190px; height:140px; overflow:hidden; border-radius:8px; box-shadow:0 10px 20px rgba(0,0,0,.16), 0 4px 10px rgba(0,0,0,.10);">
-            {% if post.demo_tag and post.demo_tag != "" %}
-              <span style="position:absolute; top:0.45rem; left:0.45rem; z-index:2; background:#0b4ea2; color:#fff; font-weight:700; font-size:0.78rem; line-height:1; padding:0.35rem 0.55rem; border-radius:0.2rem; box-shadow:0 3px 8px rgba(0,0,0,.18);">
-                {{ post.demo_tag }}
-              </span>
-            {% endif %}
-            <a href="{{ base_path }}{{ post.url }}" rel="permalink" aria-label="{{ title | strip_html }}" style="display:block; width:100%; height:100%;">
-              <img
-                src="{% if teaser contains '://' %}{{ teaser }}{% else %}{{ teaser | prepend: '/images/' | prepend: base_path }}{% endif %}"
-                alt="{{ title | strip_html }} demonstration"
-                style="display:block; width:100%; height:100%; object-fit:cover;">
-            </a>
-          </div>
+          <a class="publication-card__teaser" href="{{ base_path }}{{ post.url }}" rel="permalink" aria-label="{{ title | strip_html | escape }}">
+            <img
+              src="{% if teaser contains '://' %}{{ teaser }}{% else %}{{ teaser | prepend: '/images/' | prepend: base_path }}{% endif %}"
+              alt="{{ title | strip_html | escape }} demonstration"
+              loading="lazy">
+          </a>
         {% endif %}
 
-        <div style="flex:1; min-width:0; height:140px; overflow:hidden; display:flex; flex-direction:column; justify-content:flex-start;">
-          <h2 class="archive__item-title" itemprop="headline" style="margin-top:0; margin-bottom:0.35rem; font-size:1.05em; line-height:1.25; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;">
+        <div class="publication-card__body">
+          <h2 class="archive__item-title" itemprop="headline">
             <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
           </h2>
 
           {% if post.authors %}
-          <p class="archive__item-authors" style="margin: 0.25em 0; font-size: 0.95em; color: #6c757d; line-height:1.3; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;">
+          <p class="publication-card__authors">
             {% assign authors_bold = post.authors | replace: "Wenxuan Yuan", "<strong>Wenxuan Yuan</strong>" %}
             {% assign authors_bold = authors_bold | replace: "Yuan, Wenxuan", "<strong>Yuan, Wenxuan</strong>" %}
             {% assign authors_bold = authors_bold | replace: "W. Yuan", "<strong>W. Yuan</strong>" %}
@@ -49,14 +42,17 @@
           </p>
           {% endif %}
 
-          {% if post.category == 'conferences' %}
-            <p style="margin:0.2rem 0 0; line-height:1.3; display:-webkit-box; -webkit-line-clamp:1; -webkit-box-orient:vertical; overflow:hidden;">Presented at <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
-          {% elsif post.category == 'preprint' %}
-            <p style="margin:0.2rem 0 0; line-height:1.3; display:-webkit-box; -webkit-line-clamp:1; -webkit-box-orient:vertical; overflow:hidden;">Submitted to <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
-          {% elsif post.category == 'ongoing' %}
-            <p style="margin:0.2rem 0 0; line-height:1.3; display:-webkit-box; -webkit-line-clamp:1; -webkit-box-orient:vertical; overflow:hidden;">Expected submission to <i>{{ post.venue }}</i></p>
-          {% else %}
-            <p style="margin:0.2rem 0 0; line-height:1.3; display:-webkit-box; -webkit-line-clamp:1; -webkit-box-orient:vertical; overflow:hidden;">Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
+          <p class="publication-card__venue">
+            {% if post.category == 'preprint' %}Preprint · {% endif %}
+            <i>{{ post.venue_short | default: post.venue }}</i> {{ post.date | date: "%Y" }}
+            {% assign presentation = post.presentation %}
+            {% if presentation == nil and post.demo_tag == 'Oral' %}{% assign presentation = 'Oral' %}{% endif %}
+            {% if presentation %}
+              <span class="publication-badge{% if presentation == 'Oral' %} publication-badge--oral{% endif %}">{{ presentation }}</span>
+            {% endif %}
+          </p>
+          {% if post.paperurl and post.paperurl != true %}
+            <p class="publication-card__links"><a href="{{ post.paperurl }}">Paper</a>{% if post.codeurl %} · <a href="{{ post.codeurl }}">Code</a>{% endif %}</p>
           {% endif %}
         </div>
       </div>

@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "About Me"
 title_separator          : "-"
 name                     : &name "Wenxuan Yuan"
-description              : &description "Welcome to my personal website"
+description              : &description "Wenxuan Yuan — PhD student at NTU Singapore, researching generative modeling, reinforcement learning, and dynamical systems."
 url                      : "https://wenxuan52.github.io" # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Wenxuan52/wenxuan52.github.io"
@@ -25,8 +25,8 @@ author:
   avatar           : "profile.jpg"
   name             : "Wenxuan Yuan | 元文瑄"
   pronouns         : # example: "she/her"  
-  bio              : "Imperial College London"
-  location         : "China"
+  bio              : "PhD Student · Nanyang Technological University"
+  location         : "Singapore"
   employer         : # URL
   uri              : # URL
   email            : "wenxuan.yuan24@imperial.ac.uk" 
@@ -81,8 +81,6 @@ author:
 publication_category:
   books:
     title: 'Books'
-  ongoing:
-    title: 'Ongoing Work'
   preprint:
     title: 'Preprint'
   conference:
@@ -301,7 +299,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Singapore # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins

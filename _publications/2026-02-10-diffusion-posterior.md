@@ -1,15 +1,18 @@
 ---
 title: "On Stability and Robustness of Diffusion Posterior Sampling for Bayesian Inverse Problems"
 collection: publications
-category: preprint
+category: conference
 permalink: /publication/2026-02-10-diffusion-posterior
 date: 2026-02-10
-venue: 'International Conference on Machine Learning (ICML)'
+venue: 'Conference on Neural Information Processing Systems (NeurIPS)'
+venue_short: 'NeurIPS'
+presentation: 'Poster'
 authors: 'Yiming Yang, Xiaoyuan Cheng, Yi He, Kaiyu Li, Wenxuan Yuan, Zhuo Sun'
 paperurl: 'https://arxiv.org/abs/2602.02045'
 header:
   teaser: publications/diffusion-posterior.png
 demo_media: "/images/publications/diffusion-posterior.png"
+demo_tag: "Poster"
 ---
 
 ## Abstract:
@@ -27,13 +30,12 @@ Diffusion models have recently emerged as powerful learned priors for Bayesian i
 ## Citation
 
 ```bibtex
-@misc{yang2026stabilityrobustnessdiffusionposterior,
+@inproceedings{yang2026stabilityrobustnessdiffusionposterior,
   title = {On Stability and Robustness of Diffusion Posterior Sampling for Bayesian Inverse Problems}, 
   author = {Yiming Yang and Xiaoyuan Cheng and Yi He and Kaiyu Li and Wenxuan Yuan and Zhuo Sun},
   year = {2026},
   eprint = {2602.02045},
-  archivePrefix = {arXiv},
-  primaryClass = {cs.LG},
+  booktitle = {Advances in Neural Information Processing Systems},
   url = {https://arxiv.org/abs/2602.02045}, 
 }
 ```
