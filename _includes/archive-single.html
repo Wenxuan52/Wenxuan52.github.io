@@ -44,7 +44,7 @@
 
           <p class="publication-card__venue">
             {% if post.category == 'preprint' %}Preprint · {% endif %}
-            <i>{{ post.venue_short | default: post.venue }}</i> {{ post.date | date: "%Y" }}
+            <i>{{ post.venue }}</i> {{ post.date | date: "%Y" }}
             {% assign presentation = post.presentation %}
             {% if presentation == nil and post.demo_tag == 'Oral' %}{% assign presentation = 'Oral' %}{% endif %}
             {% if presentation %}

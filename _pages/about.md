@@ -21,10 +21,10 @@ My research connects **generative modeling, reinforcement learning, and dynamica
 
 ## Recent Updates
 
-- **Sep 2026 — NeurIPS Posters:** [*On Stability and Robustness of Diffusion Posterior Sampling for Bayesian Inverse Problems*](/publication/2026-02-10-diffusion-posterior) and [*Fisher Decorator: Refining Flow Policy via A Local Transport Map*](/publication/2026-09-25-fisher-decorator) have been accepted to **NeurIPS 2026**.
+- **Sep 2026:** [*On Stability and Robustness of Diffusion Posterior Sampling for Bayesian Inverse Problems*](/publication/2026-02-10-diffusion-posterior) and [*Fisher Decorator: Refining Flow Policy via A Local Transport Map*](/publication/2026-09-25-fisher-decorator) have been accepted as **Posters** at the **Conference on Neural Information Processing Systems (NeurIPS) 2026**.
 - **Aug 2026 — NTU:** I started my PhD at **Nanyang Technological University** in Singapore.
-- **2026 — ICML Poster:** [*How Does the Lagrangian Guide Safe Reinforcement Learning through Diffusion Models?*](/publication/2026-02-10-ALGD) has been accepted to **ICML 2026**.
-- **Jan 2026 — ICLR Oral:** [*Information Shapes Koopman Representation*](/publication/2026-01-26-info-koopman) has been accepted as an **Oral** at **ICLR 2026**.
+- **2026:** [*How Does the Lagrangian Guide Safe Reinforcement Learning through Diffusion Models?*](/publication/2026-02-10-ALGD) has been accepted as a **Poster** at the **International Conference on Machine Learning (ICML) 2026**.
+- **Jan 2026:** [*Information Shapes Koopman Representation*](/publication/2026-01-26-info-koopman) has been accepted for an **Oral presentation** at the **International Conference on Learning Representations (ICLR) 2026**.
 
 See [all publications](/publications/) for papers and code.
 
