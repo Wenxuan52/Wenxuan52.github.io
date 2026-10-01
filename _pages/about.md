@@ -7,19 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student in the College of Computing and Data Science (CCDS) at Nanyang Technological University (NTU), Singapore, supervised by [Prof. Yingzhen Li](http://yingzhenli.net/home/en/). I began my PhD in August 2026, supported by a full doctoral scholarship. Previously, I completed an MSc in Applied Computational Science and Engineering at Imperial College London with Distinction, and a BSc in Applied Mathematics at Taiyuan University of Technology.
+🎓 I am a PhD student at **Nanyang Technological University (NTU)**, **Singapore**, in the **College of Computing and Data Science (CCDS)**, supervised by [**Prof. Yingzhen Li**](http://yingzhenli.net/home/en/). I began my PhD in **August 2026**, supported by the **Research Scholarship (RSS)**. I graduated with **Distinction** from the MSc in **ACSE** (Applied Computational Science and Engineering) at **Imperial College London**. Before this, I earned a BSc in Applied Mathematics from the **TYUT** (Taiyuan University of Technology), graduating with a GPA of 4.5/5.0 (ranked 2/40). During my BSc and MSc, I focused primarily on **physics-inspired and scientific machine learning**, with particular interests in operator learning, Koopman theory, and representation learning for dynamical systems.
 
-My research focuses on generative modeling, reinforcement learning, and dynamical systems.
+🔍 Currently, I have been increasingly interested in how **latent dynamics**, **causal inference**, **reinforcement learning**, and **world models** can come together to enable machines to **predict, reason about, and act** in complex environments.
 
 ## Recent Updates
 
-- **Sep 2026:** [On Stability and Robustness of Diffusion Posterior Sampling for Bayesian Inverse Problems](/publication/2026-02-10-diffusion-posterior) was accepted as a poster at the Conference on Neural Information Processing Systems (NeurIPS) 2026.\
-  We establish stability guarantees and improve diffusion posterior sampling under likelihood misspecification.
-
-- **Sep 2026:** [Fisher Decorator: Refining Flow Policy via A Local Transport Map](/publication/2026-09-25-fisher-decorator) was accepted as a poster at the Conference on Neural Information Processing Systems (NeurIPS) 2026.\
-  We use Fisher geometry and local transport maps to refine flow policies for offline reinforcement learning.
-
-- **Aug 2026:** I began my PhD at Nanyang Technological University, Singapore, supported by a full doctoral scholarship.
+- **Aug 2026:** I began my PhD at Nanyang Technological University, Singapore, supported by the Research Scholarship (RSS).
 
 - **2026:** [How Does the Lagrangian Guide Safe Reinforcement Learning through Diffusion Models?](/publication/2026-02-10-ALGD) was accepted as a poster at the International Conference on Machine Learning (ICML) 2026.\
   We stabilize diffusion policies for safe reinforcement learning through augmented Lagrangian guidance.
