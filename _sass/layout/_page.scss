@@ -430,8 +430,15 @@
     margin: 0;
 
     li {
-      margin-bottom: 0.45rem;
+      margin-bottom: 0.85rem;
     }
+  }
+
+  .recent-updates__description {
+    display: block;
+    margin-top: 0.25rem;
+    font-size: 0.9em;
+    line-height: 1.5;
   }
 }
 
