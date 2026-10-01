@@ -246,29 +246,29 @@
 
 /* Publication entries keep titles and venue labels visible at every width. */
 .list__item.publication-list-item {
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.6rem;
   padding-right: 0;
 }
 
 .publication-card {
   display: flex;
   align-items: flex-start;
-  gap: 1.2rem;
+  gap: 1.4rem;
 }
 
 .publication-card__teaser {
   display: block;
-  flex: 0 0 180px;
-  width: 180px;
-  border-radius: 8px;
+  flex: 0 0 220px;
+  width: 220px;
+  border: 1px solid var(--global-border-color);
+  border-radius: 6px;
   overflow: hidden;
-  background: var(--global-border-color);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
 
   img {
     display: block;
     width: 100%;
-    height: 130px;
-    object-fit: contain;
+    height: auto;
   }
 }
 
@@ -325,10 +325,28 @@
     flex: none;
     width: 100%;
     max-width: 280px;
+  }
+}
 
-    img {
-      height: auto;
-      max-height: 180px;
-    }
+.publication-figure {
+  width: 100%;
+  max-width: 860px;
+  margin: 0.75rem 0 1rem;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--global-border-color);
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  }
+
+  figcaption {
+    margin-top: 0.5rem;
+  }
+
+  .publication-badge {
+    margin-left: 0;
   }
 }

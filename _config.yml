@@ -82,7 +82,7 @@ publication_category:
   books:
     title: 'Books'
   preprint:
-    title: 'Preprint'
+    title: 'Preprints'
   conference:
     title: 'Conference'
   journal:

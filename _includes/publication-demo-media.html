@@ -1,11 +1,6 @@
-<div style="position: relative; display: inline-block; max-width: 100%; margin-top: 0.4rem;">
+<figure class="publication-figure">
+  <img src="{{ include.media }}" alt="{{ page.title | escape }} — framework and results" loading="lazy">
   {% if include.tag and include.tag != "" %}
-    <span style="position:absolute; top:0.85rem; left:0.85rem; z-index:2; background:#0b4ea2; color:#fff; font-weight:700; font-size:1rem; line-height:1; padding:0.55rem 0.95rem; border-radius:0.2rem; box-shadow:0 3px 8px rgba(0,0,0,.18);">
-      {{ include.tag }}
-    </span>
+    <figcaption><span class="publication-badge{% if include.tag == 'Oral' %} publication-badge--oral{% endif %}">{{ include.tag }}</span></figcaption>
   {% endif %}
-  <img
-    src="{{ include.media }}"
-    alt="Project Demonstration"
-    style="display:block; max-width:100%; width:min(100%, 680px); height:auto; border-radius:0.65rem; box-shadow:0 14px 30px rgba(0,0,0,.18), 0 6px 12px rgba(0,0,0,.12);">
-</div>
+</figure>
