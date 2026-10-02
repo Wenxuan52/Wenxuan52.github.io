@@ -18,7 +18,7 @@ Education
 * **PhD**, **Nanyang Technological University**, Singapore (Aug 2026–present)\
   College of Computing and Data Science (CCDS)\
   Supervisor: [Prof. Yingzhen Li](http://yingzhenli.net/home/en/)\
-  Scholarship: **Research Scholarship (RSS)**
+  Scholarship: **NTU Research Scholarship (RSS)**
 
 * **MSc**, Applied Computational Science and Engineering, **Imperial College London** (2024-2025)  
   Department of Earth Sciences and Engineering | **Distinction**  
